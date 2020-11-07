@@ -154,7 +154,7 @@ class Instructor extends Lambdasian {
   grade(student, subject){
     this.student = student;
     this.subject = subject;
-    return `${this.name} receives a perfect score on ${this.subject}.`
+    return `${student.name} receives a perfect score on ${this.subject}.`
   }
 }
 
